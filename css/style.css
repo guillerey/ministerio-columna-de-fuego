@@ -8,17 +8,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Noto Sans", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     transition: all 0.3s ease;
 }
 
 a:hover {
-    color: #fff;
+    color: #999;
 }
 
 nav {
@@ -26,7 +26,7 @@ nav {
     justify-content:space-between;
     padding: 0px 70px;
     height: 70px;
-    background-color: #000;
+    background-color: #fff;
 }
 
 nav .left {
@@ -47,4 +47,17 @@ nav .left .links {
     gap: 20px;
     font-size: 18px;
     font-weight: bold;
+}
+
+nav .buttons {
+    display: flex;
+    gap: 14px;
+}
+
+nav .buttons a {
+    background-color: #eaf4f4;
+    padding: 10px;
+    color: #2d6a4f;
+    border-radius: 50%;
+    font-size: 18px;
 }
